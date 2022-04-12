@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'dropdownSearch Demo',
+      title: 'Multi-select Dropdown',
       //enable this line if you want test Dark Mode
       //theme: ThemeData.dark(),
       home: MyHomePage(),
@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("DropdownSearch Demo")),
+      appBar: AppBar(title: Text("Multi-select Dropdown")),
       body: Padding(
         padding: const EdgeInsets.all(25),
         child: Form(
